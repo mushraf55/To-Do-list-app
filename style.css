@@ -82,6 +82,7 @@ ul li.checked::before {
   background-size: cover;
   cursor: pointer;
 }
+
 ul li::before {
   background: url(unchecked.png);
   content: "";

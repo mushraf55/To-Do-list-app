@@ -2,6 +2,11 @@
 let list_container = document.getElementById("list-container");
 let input_box = document.getElementById("text-box");
 
+document.onkeyup = (e) => {
+  if (e.key == "Enter" || e.key == "Numenter") {
+    addTask();
+  }
+};
 //Function to add task
 function addTask() {
   if (input_box.value === "") {
